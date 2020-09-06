@@ -31,7 +31,7 @@ Additionally, the design to spread growth out among different resource types mea
 ### Current status of the game, relative to the design:
 * The interface is obviously very rough, and lacks any sort of help guiding the player on what to do (as the goal was to make
 the game more complicated).
-    * The game isn't even properly responsive to window size
+    * The game isn't even properly responsive to window size, and that really should be fixed.
 * Only the very basics are in the game right now
     * one multi-structure production change (I'd like to see multiple chains that sometimes meet)
     * workers can't be moved between structures
@@ -40,7 +40,9 @@ the game more complicated).
 * The simulation code really should have unit tests.
 
 ### Link to Game:
+https://andrewstart.github.io/fantasy-capitalist/
 
+*NOTE:* May not work in Firefox due to content security error when loading Javascript. Chrome does not have this issue.
 
 
 ### Art credit
