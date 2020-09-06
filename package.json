@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --env.development",
     "build:prod": "webpack --env.production",
-    "dev": "webpack-dev-server --env.development --open"
+    "dev": "webpack-dev-server --env.development --open",
+    "deploy": "pnpm run build:prod && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "copy-webpack-plugin": "^6.1.0",
     "css-loader": "^4.2.2",
     "fork-ts-checker-webpack-plugin": "^5.1.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.4.1",
     "mini-css-extract-plugin": "^0.11.0",
     "ts-loader": "^8.0.3",
