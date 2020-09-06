@@ -28,6 +28,8 @@ The interface code sort of brute-forces keeping in sync with the simulation for 
 
 Additionally, the design to spread growth out among different resource types means that (depending on game balance) we can go a lot longer before running into floating point precision issues, as `BigInt` is still new. However, this probably isn't a big deal anyway as the precision likely does not matter once you are abbreviating numbers as "quadrillion" and above.
 
+A down side to having a resource tree rather than free money whenever is that the code to catch up from inactivity is significantly more complicated, and to be fully accurate could not be calculated in constant time. I've decided to go with a potentially inaccurate constant time approach, although a hybrid approach of accurate simulation for short absences (<= 2 days, for an arbitrary example) and a constant time estimation for longer durations could be done.
+
 ### Current status of the game, relative to the design:
 * The interface is obviously very rough, and lacks any sort of help guiding the player on what to do (as the goal was to make
 the game more complicated).
