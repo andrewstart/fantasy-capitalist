@@ -9,14 +9,14 @@ export const DefaultSave: SimulationData = {
         // BASIC BUILDINGS
         [StructureType.Herbalist]: {
             w: [Object.assign({}, NEW_WORKER)],
-            r: false,
+            r: [false],
             t: 0,
             u: true,
             m: false,
         },
         [StructureType.Market]: {
             w: [Object.assign({}, NEW_WORKER)],
-            r: false,
+            r: [false, false, false],
             t: 0,
             u: true,
             m: false,
@@ -24,14 +24,14 @@ export const DefaultSave: SimulationData = {
         // BUILDINGS TO UNLOCK (come with one worker as a baseline)
         [StructureType.PotionBrewer]: {
             w: [Object.assign({}, NEW_WORKER)],
-            r: false,
+            r: [false],
             t: 0,
             u: false,
             m: false,
         },
         [StructureType.AdventurerGuild]: {
             w: [Object.assign({}, NEW_WORKER)],
-            r: false,
+            r: [false],
             t: 0,
             u: false,
             m: false,
