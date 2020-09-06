@@ -1,0 +1,87 @@
+{"frames": {
+
+"grass1":
+{
+	"frame": {"x":91,"y":164,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+"grass2":
+{
+	"frame": {"x":157,"y":164,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+"guildHall":
+{
+	"frame": {"x":139,"y":102,"w":60,"h":76},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":76},
+	"sourceSize": {"w":60,"h":76}
+},
+"herbalist":
+{
+	"frame": {"x":142,"y":1,"w":99,"h":112},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":112},
+	"sourceSize": {"w":99,"h":112}
+},
+"market":
+{
+	"frame": {"x":1,"y":1,"w":139,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":139,"h":95},
+	"sourceSize": {"w":139,"h":95}
+},
+"monument":
+{
+	"frame": {"x":55,"y":180,"w":22,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":13,"w":22,"h":38},
+	"sourceSize": {"w":64,"h":64}
+},
+"potionMaker":
+{
+	"frame": {"x":1,"y":98,"w":88,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":80},
+	"sourceSize": {"w":88,"h":80}
+},
+"windmillBlade":
+{
+	"frame": {"x":1,"y":180,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52}
+},
+"workerManagement":
+{
+	"frame": {"x":91,"y":98,"w":46,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":46,"h":62},
+	"sourceSize": {"w":64,"h":64}
+}},
+"animations": {
+	"grass": ["grass1","grass2"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "GameWorld.png",
+	"format": "RGBA8888",
+	"size": {"w":255,"h":233},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2523cffc0ecaf6be8b61bc33f52ab8b0:7057590fe759ad546190c57d6e9a033a:dd5d1c75efefb40d0cc961755a39dbaf$"
+}
+}

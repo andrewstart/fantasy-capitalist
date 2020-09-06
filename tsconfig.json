@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "target": "ES2016",
+        "lib": ["ES2017", "DOM"],
+        "moduleResolution": "node",
+        "module": "ES6",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        // added to satisfy fork-ts-checker-webpack-plugin
+        "importsNotUsedAsValues": "preserve"
+    },
+    "include": [
+        "src/*.ts"
+    ]
+}
